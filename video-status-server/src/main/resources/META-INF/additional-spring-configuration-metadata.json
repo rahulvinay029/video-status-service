@@ -1,0 +1,23 @@
+{
+    "properties": [
+      {
+        "name": "job.simulation.delay",
+        "type": "java.lang.Integer",
+        "description": "Time delay in milliseconds between status updates.",
+        "defaultValue": 1000
+      },
+      {
+        "name": "job.simulation.pending-count",
+        "type": "java.lang.Integer",
+        "description": "Number of 'pending' status updates before final status.",
+        "defaultValue": 3
+      },
+      {
+        "name": "job.simulation.error-probability",
+        "type": "java.lang.Double",
+        "description": "Probability of the job ending with an 'error' status.",
+        "defaultValue": 0.1
+      }
+    ]
+  }
+  
